@@ -3,7 +3,7 @@
 Simple script to read a line of data from a serial device
 
 Can accept two optional arguments, the first being the serial device to use and the
-second being the baudrate. These default to "/dev/ttyUSB0" and 9600 respectively.
+second being the baudrate. These default to "/dev/ttyUSB0" and 115200 respectively.
 
 Assumes that the data consists of 6 fields, the first of which being an integer
 which starts at zero. This is used to skip any crap left over from a previous
