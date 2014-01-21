@@ -66,6 +66,6 @@ void loop(void) {
   // Turn off LED
   digitalWrite(13, LOW);
 
-  delay(1000);
+  delay(60000L);
 }
 
